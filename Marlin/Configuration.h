@@ -103,7 +103,7 @@
  * :[-1, 0, 1, 2, 3, 4, 5, 6, 7]
  */
 #define SERIAL_PORT 0
-#define BAUDRATE 57600
+#define BAUDRATE 250000
 /**
  * Serial Port Baud Rate
  * This is the default communication speed for all serial ports.
@@ -125,7 +125,7 @@
  */
 
 #define SERIAL_PORT_2 -1
-#define BAUDRATE_2 57600   // Enable to override BAUDRATE
+//#define BAUDRATE_2 57600   // Enable to override BAUDRATE
 
 /**
  * Select a third serial port on the board to use for communication with the host.
